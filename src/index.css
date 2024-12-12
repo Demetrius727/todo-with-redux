@@ -1,0 +1,99 @@
+body,
+h1,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  color: #ddd;
+  font-family: Helvetica;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 10px auto;
+  background-color: #696969;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background: #5f5168;
+  margin: 6px 0;
+  padding: 6px;
+  text-align: left;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+input,
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: 3px solid #433f46;
+}
+
+input {
+  background-color: #ddd;
+}
+
+.button-filter {
+  display: flex;
+  justify-content: center;
+}
+
+button {  
+  /* border: none; */
+  background-color: #40af8a;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #737a8d;
+}
+
+li span {
+  cursor: pointer;
+  word-break: break-word; /* Força quebra da linha */ 
+  background-color: #2a1f30;
+  width: 75%;
+  height: 30px;
+  padding: 10px 0 0 10px;
+  border-radius: 10px;
+}
+
+li span.line-through {
+  text-decoration: line-through;
+  color: #888;
+}
+
+li button {
+  border: 3px solid #8a4f4f;
+  background-color: #ce954b;
+}
+
+li button:hover {
+  background-color: #fc9696;
+}
